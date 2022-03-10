@@ -2,13 +2,17 @@
   "name": "dashboard-final-year-project",
   "version": "0.1.0",
   "description": "Dashboard to display analysis details",
-  "main": "index.js",
+  "src": "src/index.html",
+  "main": "src/index.js",
   "author": "Bonnie Simon <bonnie.developer@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "http-server": "^14.1.0"
   },
   "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server -p 3000"
+    "start": "parcel src/index.html -p 3000 --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
   }
 }
