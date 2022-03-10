@@ -4,5 +4,11 @@
   "description": "Dashboard to display analysis details",
   "main": "index.js",
   "author": "Bonnie Simon <bonnie.developer@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/http-server/bin/http-server -p 3000"
+  }
 }
