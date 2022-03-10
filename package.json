@@ -1,0 +1,8 @@
+{
+  "name": "dashboard-final-year-project",
+  "version": "0.1.0",
+  "description": "Dashboard to display analysis details",
+  "main": "index.js",
+  "author": "Bonnie Simon <bonnie.developer@gmail.com>",
+  "license": "MIT"
+}
