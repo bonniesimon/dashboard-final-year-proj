@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Dashboard to display analysis details",
   "src": "src/index.html",
-  "main": "src/index.js",
   "author": "Bonnie Simon <bonnie.developer@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^14.1.0"
+    "http-server": "^14.1.0",
+    "live-server": "^1.2.1"
   },
   "scripts": {
-    "start": "parcel src/index.html -p 3000 --open"
+    "start": "parcel watch ./src/index.html --no-hmr & live-server --port=3000 ./dist/"
   },
   "devDependencies": {
     "parcel": "^2.3.2"
