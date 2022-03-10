@@ -6,7 +6,6 @@
   "author": "Bonnie Simon <bonnie.developer@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^14.1.0",
     "live-server": "^1.2.1"
   },
   "scripts": {
