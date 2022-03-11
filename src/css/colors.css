@@ -352,16 +352,22 @@
 .text-indigo-1{
 	color: var(--oc-indigo-1);
 }
+.bg-violet-4{
+	background-color: var(--oc-violet-4);
+}
 .bg-blue{
 	background-color: #2677A5;
+}
+.bg-gray-1{
+	background-color: var(--oc-gray-1);
+}
+.bg-gray-3{
+	background-color: var(--oc-gray-3);
 }
 .bg-gray-9{
 	background-color: var(--oc-gray-9);
 }
 
-.bg-gray-3{
-	background-color: var(--oc-gray-3);
-}
 
 .bg-indigo-8{
 	background-color: var(--oc-indigo-8);
