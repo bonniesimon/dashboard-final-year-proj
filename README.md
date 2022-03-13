@@ -20,3 +20,7 @@ OR # if you used npm then
 
 npm start
 ```
+
+NOTE:  
+`dist/` folder is for saving the code for live reload & in not pushed to repo
+`build/` folder can be pushed to repo and used for hosting
