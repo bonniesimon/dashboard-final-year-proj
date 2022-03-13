@@ -9,7 +9,8 @@
     "live-server": "^1.2.1"
   },
   "scripts": {
-    "start": "parcel watch ./src/index.html --no-hmr & live-server --port=3000 ./dist/"
+    "start": "parcel watch ./src/index.html --no-hmr & live-server --port=3000 ./dist/",
+    "build": "parcel build src/index.html --dist-dir build"
   },
   "devDependencies": {
     "parcel": "^2.3.2"
