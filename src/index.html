@@ -32,19 +32,24 @@
 			<div class="col-sm-4 mx-auto d-flex flex-column bg-gray-1 p-3">
 				<h2 class="text-center">Details</h2>
 				<div class="container mt-2">
-					<p>Name: </p>
-					<p>Age</p>
+					<!-- <p>Name: </p>
+						<p>Age</p> -->
+					<p>
+						Select the patients EEG file
+					</p>
 				</div>
-				<button class="btn bg-violet-4 mx-auto">Capture</button>	
+				<input class="btn bg-violet-4 mx-auto text-white" type="file" id="filetoRead" />
+				<button class="btn bg-violet-4 mx-auto my-2 text-white">Predict</button>
 			</div>
+			<!-- <textarea id="editor"></textarea><br> -->
 		</section>
-		<section id="plot-section" class="mt-4">
-			<canvas class="p-5 w-75 mx-auto" id="myChart"></canvas>
-		</section>
-
 		<section id="timeseries-plot" class="mt-4">
 			<canvas class="p-5 w-75 mx-auto" id="timeseries-chart"></canvas>
 		</section>
+		<!-- <section id="plot-section" class="mt-4">
+			<canvas class="p-5 w-75 mx-auto" id="myChart"></canvas>
+		</section> -->
+
 	</main>
 
 
@@ -58,7 +63,7 @@
 	<!-- Graphs -->
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.1/dist/Chart.min.js"></script>
 	<script type="module" src="./js/chart.js">
-		
+
 	</script>
 </body>
 
